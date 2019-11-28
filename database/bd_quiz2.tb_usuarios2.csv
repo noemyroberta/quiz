@@ -1,0 +1,11 @@
+uti_id,uti_age,uti_poids,uti_taille,uti_cours,uti_facilite,uti_deuxieme_frequence_cardiaque,uti_premiere_frequence_cardiaque
+1,20,47,1.63,Informática,Baixa,100,96
+2,17,65,1.69,Informática,Média,93,75
+3,19,60,1.70,Informática,Média,112,144
+4,-22,58,1.67,Informática,Baixa,105,149
+5,17,65,1.68,Eletroeletrônica,Baixa,105,97
+6,17,59,168.00,,Média,92,92
+7,16,68,1.77,Eletroeletrônica,Média,76,103
+8,18,50,160.00,Informática,Média,93,88
+9,17,56,154.00,Informática,Baixa,108,113
+10,18,40,1.59,Informática,Baixa,109,101

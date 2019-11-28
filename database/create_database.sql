@@ -1,10 +1,12 @@
 CREATE DATABASE db_quiz;
 USE db_quiz;
 
+-- DROP DATABASE db_quiz;
+
 CREATE TABLE tb_utilisateurs (
 
 	uti_id	INT PRIMARY KEY AUTO_INCREMENT NOT NULL UNIQUE,
-    uti_age	VARCHAR(3) NOT NULL,
+    uti_age	VARCHAR(3) NOT NULL,  
     uti_poids INTEGER NOT NULL,
     uti_taille DECIMAL(12,2) NOT NULL,
     uti_cours ENUM ('Informática', 'Eletroeletrônica') NOT NULL,
@@ -13,6 +15,7 @@ CREATE TABLE tb_utilisateurs (
 	uti_premiere_frequence_cardiaque VARCHAR(45) NOT NULL
 
 );
+
 
 CREATE TABLE tb_questionnaire (
 
@@ -24,6 +27,7 @@ CREATE TABLE tb_questionnaire (
 
 );
 
+
 CREATE TABLE tb_questions (
 
 	que_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL UNIQUE,
@@ -34,6 +38,7 @@ CREATE TABLE tb_questions (
     REFERENCES tb_utilisateurs (uti_id)
 
 );
+
 
 CREATE TABLE tb_alternatives (
 
