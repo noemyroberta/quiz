@@ -61,35 +61,4 @@
             return $prepare->execute();
         }
 
-        public function selectCorrelationOne() {
-
-            $array = [];
-
-            $sql = "SELECT uti_premiere_frequence_cardiaque, qur_resultat FROM v_utilisateurs_frequence_hit";
-
-            $prepare = Connection::conect()->prepare($sql);
-            $prepare->execute();
-
-            while($row = $prepare->fetch(PDO::FETCH_ASSOC)) {
-                array_push($array, $row);
-            }
-
-            return $array;
-        }
-
-        public function selectCorrelationTwo() {
-
-            $array = [];
-
-            $sql = "SELECT uti_facilite, qur_resultat FROM v_utilisateurs_facilite_hit";
-
-            $prepare = Connection::conect()->prepare($sql);
-            $prepare->execute();
-
-            while($row = $prepare->fetch(PDO::FETCH_ASSOC)) {
-                array_push($array, $row);
-            }
-
-            return $array;
-        }
     }

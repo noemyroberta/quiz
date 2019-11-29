@@ -32,9 +32,9 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title centered"><b>Obrigad@! :) | By Turma 924</b></b></h5>
-                <form action="../controllers/algorithm_1.php" class="form-group" method="POST">
+                <form action="../views/index.php" class="form-group" method="POST">
                         <div class="centered">
-                            <input type="submit" class="btn-primary btn btn-lg" value="Ir" name="submit">
+                            <input type="submit" class="btn-primary btn btn-lg" value="Voltar" name="submit">
                         </div>
                     </div>
                 </form>

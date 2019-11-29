@@ -65,7 +65,7 @@
             <input type="button" class="btn-danger btn" value="Parar" onclick="para();">
             <input type="button" class="btn-success btn" value="Iniciar" onclick="inicia();">
             <input type="button" class="btn-primary btn" value="Zerar" onclick="zera();">
-        </div>
+        </div>  
 
         <p>
             <h1>Quiz</h1>
